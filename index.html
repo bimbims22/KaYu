@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KaYu</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>KaYu - Baca Komik Online</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <h1>KaYu</h1>
-      <p>Tempat terbaik untuk membaca komik online!</p>
+
+<header>
+    <div class="logo-container">
+        <img src="logo.png" alt="KaYu Logo" class="logo">
     </div>
-  </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#manga-list">Manga List</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-  <main>
-    <div class="comic-container">
-      <div class="comic-navigation">
-        <button id="prevButton">Sebelumnya</button>
-        <button id="nextButton">Berikutnya</button>
-      </div>
+<main>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Tempat Terbaik untuk Membaca Komik Online!</h1>
+            <p>Jelajahi berbagai genre komik dan nikmati cerita seru kapan saja!</p>
+            <button class="cta-btn">Mulai Baca</button>
+        </div>
+    </section>
 
-      <div class="comic-viewer">
-        <img src="https://example.com/komik1.jpg" alt="Komik Page 1" id="comicImage">
-      </div>
-    </div>
-  </main>
+    <section id="manga-list">
+        <h2>Komik Terpopuler</h2>
+        <div class="manga-grid">
+            <!-- Example of manga items -->
+            <div class="manga-item">
+                <img src="manga1.jpg" alt="Manga 1">
+                <p>Manga Title 1</p>
+            </div>
+            <div class="manga-item">
+                <img src="manga2.jpg" alt="Manga 2">
+                <p>Manga Title 2</p>
+            </div>
+            <!-- Add more manga items here -->
+        </div>
+    </section>
+</main>
 
-  <footer>
-    <p>&copy; 2025 KaYu - Semua hak cipta dilindungi</p>
-  </footer>
+<footer>
+    <p>&copy; 2025 KaYu - Semua hak cipta dilindungi.</p>
+</footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
